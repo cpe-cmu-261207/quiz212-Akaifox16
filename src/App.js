@@ -19,7 +19,6 @@ function App() {
   ];
   const [id, setID] = useState(620610771);
   const change = (v) => {
-    let current = id;
     setID(id + v);
   };
   return (
