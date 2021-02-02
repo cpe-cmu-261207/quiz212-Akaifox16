@@ -18,9 +18,6 @@ function App() {
     }
   ];
   const [id, setID] = useState(620610771);
-  const change = (v) => {
-    setID(id + v);
-  };
   return (
     <div class="ml-2">
       {/* Code me please! */}
@@ -29,7 +26,7 @@ function App() {
         <p>{id}</p>
         <button
           onClick={() => {
-            change(-1);
+            setID(id - 1);
           }}
         >
           -
@@ -37,7 +34,7 @@ function App() {
         <button onClick={() => setID(620610771)}>reset</button>
         <button
           onClick={() => {
-            change(1);
+            setID(id + 1);
           }}
         >
           +
