@@ -2,7 +2,7 @@ import { useState } from "react";
 function App() {
   const persons = [
     {
-      name: "Kamonpat Sunthonpong",
+      name: "Kamonpat Sunthonpong 620610771",
       gender: "male",
       age: "20"
     },
